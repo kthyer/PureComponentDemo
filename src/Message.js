@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 
 import Paper from "@material-ui/core/Paper";
 import PropTypes from "prop-types";
@@ -15,7 +15,7 @@ const styles = {
   }
 };
 
-export default class Message extends PureComponent {
+export default class Message extends Component {
   static propTypes = {
     message: PropTypes.string.isRequired
   };

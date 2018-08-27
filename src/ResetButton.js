@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 
 import Button from "@material-ui/core/Button";
 import PropTypes from "prop-types";
@@ -10,7 +10,7 @@ const styles = {
   }
 };
 
-export default class ResetButton extends PureComponent {
+export default class ResetButton extends Component {
   static propTypes = {
     clickFunc: PropTypes.func.isRequired
   };
